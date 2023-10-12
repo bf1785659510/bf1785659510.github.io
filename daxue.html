@@ -36,7 +36,6 @@
 				background-color: #BA261A;
 			}
 
-			/* 为每个链接设定样式 */
 			.dropbtn {
 				display: inline-block;
 				color: #FFDCAB;
@@ -44,10 +43,9 @@
 				padding: 20px 5px;
 				text-decoration: none;
 				background-color: brown;
-				border-radius:30px;
+				border-radius: 30px;
 			}
 
-			/* 鼠标放置链接时改变样式 */
 			.dropbtn:hover {
 				background-color: #111;
 				color: red;
@@ -65,19 +63,24 @@
 			.xiaohui {
 				display: flex;
 				background-color: #F5E3DE;
+				padding-left: 20%;
+				padding-right: 20%;
+				padding-top: 5%;
 			}
 
-			.xiaohui img {
-				width: 23%;
-				height: 20%;
-			}
+
 
 			.xuexiaojianjie span {
-				font-size: 50px;
+				font-size: 20px;
+				color: #760000;
 			}
 
 			.xuexiaojianjie p {
 				font-size: 20px;
+			}
+
+			.xuexiaojianjie {
+				padding-bottom: 100px;
 			}
 
 			.zhongjian {
@@ -86,11 +89,12 @@
 				width: 100%;
 				padding: 20px;
 			}
-			
-			.endbox span{
+
+			.endbox span {
 				font-size: 50px;
 			}
-			.endbox li{
+
+			.endbox li {
 				font-size: 20px;
 			}
 
@@ -101,25 +105,30 @@
 				font-size: 50px;
 				color: #FFDCAB;
 			}
+
 			.shipin {
 				background-color: #F5E3DE;
 			}
-			.shiyigongcheng{
+
+			.shiyigongcheng {
 				width: 25%;
 			}
-			.xianfengzhige{
+
+			.xianfengzhige {
 				width: 25%;
 			}
-			.jingshen{
+
+			.jingshen {
 				width: 25%;
 			}
-			.kouhao{
+
+			.kouhao {
 				width: 25%;
 			}
 
 			#foot {
 				background-color: #CCC;
-				height: 50px;
+				height: 100px;
 				width: 100%;
 				margin: 0px 0px;
 			}
@@ -128,27 +137,28 @@
 				padding: 0px 5px 0px 200px;
 			}
 
-			#foot ul li a {
+			#foot ul li h3 {
 				text-decoration: none;
 				background-color: #CCC;
 				line-height: 20px;
 				color: #333;
 				float: left;
-				width: 100px;
+				width: 50rem;
 				text-align: center;
 				padding: 10px;
 				display: block;
 				height: 50px;
 			}
 
-			#foot ul li a:hover {
-				background: #FF99FF;
+			hr {
+				border: 1px solid black;
+			}
 			}
 		</style>
 	</head>
 	<body>
 		<div class="div">
-			<img src="img/背景.png" width="100%">
+			<center><img src="img/背景.png" width="98%"></center>
 		</div>
 		<div class="div1">
 			<center>
@@ -174,9 +184,13 @@
 		</div>
 
 		<div class="xiaohui">
-			<img src="img/校徽.jpg" />
+
 			<div class="xuexiaojianjie">
 				<span>学校简介</span>
+				<br>
+				<br>
+				<hr>
+				<br>
 				<p>&numsp;&numsp;&numsp;江西软件职业技术大学是经国家教育部批准设置的全日制统招本科高校，是全国第一所软件职业技术大学。由国家软件百强企业先锋软件股份有限公司于2003年创办，成立之初就成功入选全国35所示范性软件职业技术学院。2018年12月18日，教育部批准学校升格为本科层次职业学校，成为全国首批15所本科层次职业教育高校。2019年5月27日，教育部批复更名为江西软件职业技术大学。
 				</p><br />
 				<p>&numsp;&numsp;&numsp;学校秉承“创业创新、知识管理”的校训，实施“校企融合、产学互动”的办学模式，实践“三好一专、十一工程”人才培养体系，专注软件工程及相关专业的人才培养。自办学以来，学校形成了“用企业家育人理念培养学生”“请工程师当老师”“拿真实的项目进行实训”的校企深度融合发展思路。学校以国产软件为核心，在研发、交通、能源、卫生、教育以及智慧城市等领域为社会累计培养的三万余名软件优秀人才。为贯彻落实《国家职业教育改革实施方案》和《教育部江西省人民政府关于整省推进职业教育综合改革提质创优的意见》精神，推进职业教育与井冈山市产业深度融合，助推井冈山市数字经济发展，经过与井冈山市委市政府和先锋软件股份有限公司友好协商，与井冈山市和先锋软件股份有限公司共建江西软件职业技术大学井冈山数字经济产业学院。
@@ -249,8 +263,8 @@
 					</ul>
 				</div>
 			</div>
-			
-			
+
+
 			<div class="kouhao">
 				<div class="endbox">
 					<center><span>先锋口号</span></center>
@@ -263,14 +277,23 @@
 					</ul>
 				</div>
 			</div>
-			
-			
+
+
 		</div>
 		<div id="foot">
 			<ul>
-				<li><a href="https://www.jxuspt.com/branch2/" target="_blank">制作方|</a></li>
-				<li><a href="gongzhonghao.html" target="_blank">公众号|</a></li>
-				<li><a href="banquanshengming.html" target="_blank" +>版权声明|</a></li>
+				<li>
+					<h3 target="_blank">出品方:江西软件职业技术大学网络工程学院学生第一党支部</h3>
+				</li>
+				<li>
+					<h3 target="_blank">设计:段振宇，谢福财，沈聪涵，周杰，董欣阳，彭佳荣</h3>
+				</li>
+				<li>
+					<h3 target="_blank">素材来源:新华网</h3>
+				</li>
+				<li>
+					<h3 target="_blank">单位:江西软件职业技术大学党委学院</h3>
+				</li>
 			</ul>
 		</div>
 	</body>

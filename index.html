@@ -2,7 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>云游井冈山</title>
+		<link rel="stylesheet" href="https://at.alicdn.com/t/c/font_3881267_wfv3iyzbijg.css">
 		<style type="text/css">
 			* {
 				margin: 0;
@@ -12,15 +15,13 @@
 			.div {
 				margin-bottom: -5px;
 			}
-			.div1 {}
 
-			.divend {
-				height: 800px;
-			}
+			.div1 {}
 
 			* {
 				box-sizing: border-box;
 			}
+
 			ul {
 				list-style: none;
 			}
@@ -33,7 +34,6 @@
 				background-color: #BA261A;
 			}
 
-			/* 为每个链接设定样式 */
 			.dropbtn {
 				display: inline-block;
 				color: #FFDCAB;
@@ -41,10 +41,9 @@
 				padding: 20px 5px;
 				text-decoration: none;
 				background-color: brown;
-				border-radius:30px;
+				border-radius: 30px;
 			}
 
-			/* 鼠标放置链接时改变样式 */
 			.dropbtn:hover {
 				background-color: #111;
 				color: red;
@@ -59,20 +58,10 @@
 				font-size: 40px;
 			}
 
-			.geli {
-				width: 100%;
-				background-color: #F5E3DE;
-				font-size: 40px;
-				color: #000000;
-			}
-
-			.shipin {
-				background-color: #F5E3DE;
-			}
 
 			#foot {
 				background-color: #CCC;
-				height: 50px;
+				height: 100px;
 				width: 100%;
 				margin: 0px 0px;
 			}
@@ -81,27 +70,123 @@
 				padding: 0px 5px 0px 200px;
 			}
 
-			#foot ul li a {
+			#foot ul li h3 {
 				text-decoration: none;
 				background-color: #CCC;
 				line-height: 20px;
 				color: #333;
 				float: left;
-				width: 100px;
+				width: 50rem;
 				text-align: center;
 				padding: 10px;
 				display: block;
 				height: 50px;
 			}
 
-			#foot ul li a:hover {
-				background: #FF99FF;
+			section {
+				position: relative;
+				height: 600px;
+				width: 60%;
+				border: 1px solid;
+				margin: 100px auto;
+			}
+
+			#img {
+				height: 100%;
+				width: 100%;
+				background-size: 100% 100%;
+			}
+
+			p {
+				position: absolute;
+				left: 50%;
+				bottom: 0px;
+				transform: translate(-50%, -50%);
+			}
+
+			i {
+				height: 15px;
+				width: 15px;
+				background-color: gray;
+				border-radius: 50%;
+				display: inline-block;
+				margin-right: 10px;
+			}
+
+			i:nth-child(1) {
+				background-color: white;
+			}
+
+			i:nth-child(4) {
+				margin-right: 0;
+			}
+
+			.left,
+			.right {
+				color: rgba(255, 255, 255, 0.7);
+				font-size: 50px;
+				font-weight: bolder;
+				position: absolute;
+				top: 50%;
+				font-weight: 500;
+			}
+
+			.left {
+				left: 0px;
+				transform: translate(15%, -50%);
+			}
+
+			.right {
+				right: 0px;
+				transform: translate(-15%, -50%);
+			}
+
+			a {
+				text-decoration: none;
+				color: #111;
+			}
+
+			.enniu {
+				display: flex;
+				width: 100%;
+				height: 200px;
+				background-color: #BA261A;
+			}
+
+			.enniu1 {
+				width: 260px;
+				height: 260px;
+				float: left;
+				margin-left: 30%;
+				padding-top: 80px;
+			}
+
+			.enniu2 {
+				width: 260px;
+				height: 260px;
+				float: left;
+				margin-left: 180px;
+				padding-top: 80px;
+			}
+
+			button {
+				background-color: #BA261A;
+				font-weight: 700;
+				font-size: 20px;
+				color: #FFDCAB;
+				border-radius: 110px;
+
+				&:hover {
+					background-color: rosybrown;
+					cursor: pointer;
+				}
+			}
 			}
 		</style>
 	</head>
 	<body>
 		<div class="div">
-			<img src="img/背景.png" width="100%">
+			<center><img src="img/背景.png" width="98%"></center>
 		</div>
 		<div class="div1">
 			<center>
@@ -120,44 +205,118 @@
 					</div>
 					<div class="dropdown">
 						<a href="daxue.html" class="dropbtn">&numsp;&numsp;&numsp;大学&numsp;&numsp;&numsp;</a>
-
 					</div>
 				</ul>
 			</center>
 		</div>
-		<div class="geli">
-			<center>
-				<h1 style="font-family:华文隶书;">星火燎原耀神州——走进井冈山革命博物馆</h1>
-			</center>
+		<div class="lunbo">
+			<section>
+				<span class="left iconfont icon-anniu_jiantouxiangzuo"></span>
+				<img src="img/大学1.jpg" alt="" id="img">
+				<span class="right iconfont icon-anniu-jiantouxiangyou"></span>
+				<p></p>
+			</section>
 		</div>
-
-		<center>
-			<div class="shipin">
-				<video width="90%" height="60%" controls>
-					<source src="img/星火燎原耀神州_——走进井冈山革命博物馆-BV1ev411L7Mk.mp4" type="video/mp4">
-					您的浏览器不支持 video 标签。
-				</video>
+		<div class="enniu">
+			<div class="enniu1">
+				<a href="shipin1.html" target="top"><button>星火燎原耀神州——走进井冈山革命博物馆</button></a>
 			</div>
-		</center>
-		<div class="geli">
-			<center>
-				<h1 style="font-family:华文隶书;">县委大院访谈录：井冈山，逐梦“数字蓝海” </h1>
-			</center>
+			<div class="enniu2">
+				<a href="shipin2.html" target="top"><button>县委大院访谈录：井冈山，逐梦“数字蓝海”</button></a>
+			</div>
 		</div>
-		<center>
-			<div class="shipin">
-				<video width="90%" height="60%" controls>
-					<source src="img/61 县委大院访谈录：井冈山，拼闯新路.mp4" type="video/mp4">
-					您的浏览器不支持 video 标签。
-				</video>
-			</div>
-		</center>
 		<div id="foot">
 			<ul>
-				<li><a href="https://www.jxuspt.com/branch2/" target="_blank">制作方|</a></li>
-				<li><a href="gongzhonghao.html" target="_blank">公众号|</a></li>
-				<li><a href="banquanshengming.html" target="_blank">版权声明|</a></li>
+				<li>
+					<h3 target="_blank">出品方:江西软件职业技术大学网络工程学院学生第一党支部</h3>
+				</li>
+				<li>
+					<h3 target="_blank">设计:段振宇，谢福财，沈聪涵，周杰，董欣阳，彭佳荣</h3>
+				</li>
+				<li>
+					<h3 target="_blank">素材来源:新华网</h3>
+				</li>
+				<li>
+					<h3 target="_blank">单位:江西软件职业技术大学党委学院</h3>
+				</li>
 			</ul>
 		</div>
+
+		<script type="text/javascript">
+			let pEle = document.getElementsByTagName("p")[0];
+			let secEle = document.getElementsByTagName("section")[0];
+			let imgArr = [
+				"./img/扁担1.jpg",
+				"./img/扁担2.jpg",
+				"./img/扁担3.jpg",
+			]
+			let i = 0;
+			let cirArr = creatCircle(imgArr.length);
+			cirArr.forEach(node => pEle.appendChild(node));
+			let iEle = document.getElementsByTagName("i");
+			for (let k = 0; k < iEle.length; k++) {
+				iEle[k].dataset.index = k;
+			}
+			let timer;
+
+			function playTime() {
+				timer = setInterval(() => {
+					i++;
+					if (i > imgArr.length - 1) {
+						i = 0;
+					}
+					addStyleI(i);
+					img.src = imgArr[i];
+				}, 2000);
+			}
+			playTime();
+			secEle.addEventListener("mouseenter", function() {
+				clearInterval(timer);
+				timer = null;
+			});
+			secEle.addEventListener("mouseleave", playTime);
+			secEle.addEventListener("click", function(e) {
+				let event = e || window.event;
+				if (event.target.className == "left iconfont icon-anniu_jiantouxiangzuo") {
+					i--;
+				}
+				if (event.target.className == "right iconfont icon-anniu-jiantouxiangyou") {
+					i++;
+				}
+				if (i < 0) {
+					i = imgArr.length - 1;
+				}
+				if (i == imgArr.length) { //3
+					i = 0;
+				}
+				img.src = imgArr[i];
+				addStyleI(i);
+				if (event.target.nodeName == "I") {
+					console.log("11111");
+					cirI = event.target.dataset.index;
+					img.src = imgArr[cirI];
+					addStyleI(cirI);
+					i = cirI;
+				}
+			});
+
+			function picScroll() {
+				clearInterval(timer);
+			}
+
+			function creatCircle(num) {
+				let iArr = [];
+				for (let j = 0; j < num; j++) {
+					let circleNode = document.createElement("i");
+					iArr.push(circleNode);
+				}
+				return iArr;
+			}
+
+			function addStyleI(index) {
+				[...iEle].forEach(node => node.style.backgroundColor = "gray");
+				iEle[index].style.backgroundColor = "white";
+			}
+		</script>
 	</body>
 </html>
